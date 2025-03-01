@@ -15,7 +15,6 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Predefined Constant Value Selector",
   "description": "Returns a predefined value (null, undefined, true, false, empty string, empty object or empty array). Useful for client or tag fields, and for trigger conditions.",
-  "categories": ["UTILITY"],
   "containerContexts": [
     "SERVER"
   ]
