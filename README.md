@@ -1,5 +1,27 @@
-# example-community-template
+# Predefined Constant Value Selector for Server-Side Google Tag Manager  
 
-The example-community-template project is an example of a Google Tag Manager [Community Template Gallery template repository](https://support.google.com/tagmanager/answer/9454109) repository that can be used as a template to generate new community template repositories.
+Generates and returns a predefined constant value based on the selected input. This template is useful for testing, debugging, or assigning default values within Google Tag Manager (GTM) Server-Side environments.  
 
-To submit your own template, see the [detailed instructions on how to submit templates to the Community Template Gallery](https://developers.google.com/tag-manager/templates/gallery).
+## Supported Return Values  
+
+The template allows you to select one of the following values:  
+
+| Output Value  | Description |
+|--------------|-------------|
+| `null`       | Represents a `null` value |
+| `undefined`  | Represents an `undefined` value |
+| `true`       | Boolean `true` |
+| `false`      | Boolean `false` |
+| `""`         | An empty string |
+| `[]`         | An empty array |
+| `{}`         | An empty object |
+
+## Use Cases  
+
+- **Testing variable behavior** in GTM templates  
+- **Assigning default values** when a specific type of data is needed  
+- **Debugging conditions** where different data types are required  
+
+
+## Author(s)
+[Giovani Ortolani Barbosa](https://www.linkedin.com/in/giovani-ortolani-barbosa/)
